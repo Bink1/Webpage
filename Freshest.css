@@ -1,0 +1,38 @@
+html, body, h1, h2, h3, p, div {
+     margin: 0;
+     padding: 0;
+ }
+ div {
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:aqua;
+ }
+.hotbar{
+ display: flex;
+ justify-content: space-between;
+ background-size: cover;
+ background-color: green;
+}
+.page1 {
+      background-image: url("pics/green.jpg");
+      background-position: center;
+      height: 500px;
+      text-align: center;
+      border-bottom: solid white;
+}
+.page2{
+     background-image: url("pics/bread.jpg");
+     background-size: 50%;  
+     display: flex;
+     justify-content: flex-start;
+     height: 500px;
+} 
+.page3{
+     background-image: url("pics/pineapple.jpg");
+     background-image: url("pics/cooked.jpg");
+     background-size: 50%;  
+     display: flex;
+     justify-content: space-between;
+     height: 500px;
+     
+}
