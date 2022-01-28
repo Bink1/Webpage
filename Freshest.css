@@ -1,0 +1,62 @@
+html, body, h1, h2, h3, p, div {
+      margin: 0;
+      padding: 0;
+}
+div {
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:aqua;
+}
+
+ body {
+      background-color: black;
+}
+.hotbar{
+      display: flex;
+      justify-content: space-between;
+      background-size: cover;
+      background-color: green;
+}
+
+.green{
+      background-image: url("pics/green.jpg");
+      background-position: center;
+      height: 500px;
+      width: 500;
+      text-align: center;
+      border-bottom: solid white;
+}
+.body{
+      display: flex;
+      flex-wrap: wrap;
+}
+.picbread{
+      background-image: url("pics/bread.jpg");
+      background-position: center;
+      height: 600px;
+      width: 600px;
+      background-size: cover;
+}
+.picpineapple{
+      background-image: url("pics/pineapple.jpg");
+      background-position: center;
+      height: 600px;
+      width: 600px;
+      background-size: cover;
+} 
+
+.picpineapple2{
+      background-image: url("pics/pineapple.jpg");
+      background-position: center;
+      height: 600px;
+      width: 600px;
+      background-size: cover;  
+}
+
+.piccooked{
+      background-image: url("pics/cooked.jpg");
+      background-position: center; 
+      height: 600px;
+      width: 600px;
+      background-size: cover;   
+}
